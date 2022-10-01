@@ -1,5 +1,45 @@
 /* * {
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 } */
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+/* header */
+
+a{
+	text-decoration: none;
+}
+
+.color-logo {
+	color: #2196f3;
+}
+
+.logo-nav {
+	width: 145px;
+	height: 31px;
+	top: 24px;
+	left: 215px;
+	font-weight: 700;
+	font-size: 26px;
+	color: black;
+}
+
+.menu-nav {
+	font-size: 14px;
+	list-style-type: none;
+	
+}
+
+
+/* main */
+
+h1 {
+	text-transform: uppercase;
+}
+
+/* footer */
+
+
