@@ -3,6 +3,14 @@
 	padding: 0;
 }
 
+:root{
+	--blue-color:#2196f3;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
 a {
 	text-decoration: none;
 }
@@ -11,7 +19,7 @@ a {
 }
 
 .color-logo {
-	color: #2196f3;
+	color: var(--blue-color);
 }
 
 .header-line {
@@ -72,7 +80,7 @@ button {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 36px;
-	border: #2196f3;
+	border: var(--blue-color);
 	color: #212121;
 	cursor: pointer;
 	font-family: 'Roboto', sans-serif;
@@ -132,9 +140,9 @@ button {
 
 button:hover {
 	color: white;
-	background-color: #2195f3;
+	background-color: var(--blue-color);
 }
 
 .link:hover{
-color: #2196F3;
+color: var(--blue-color);
 }
